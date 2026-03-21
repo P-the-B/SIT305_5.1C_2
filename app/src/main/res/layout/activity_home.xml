@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_marginBottom="16dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="iStream"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"/>
+
+        <Button
+            android:id="@+id/btnLogout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Logout"
+            android:textSize="12sp"
+            android:backgroundTint="#222222"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="YouTube OR Rumble URL:"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_marginBottom="8dp"/>
+
+    <EditText
+        android:id="@+id/etYoutubeUrl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="https://www.youtube.com/watch?v=..."
+        android:inputType="textUri"
+        android:padding="14dp"
+        android:background="@drawable/input_background"
+        android:layout_marginBottom="12dp"/>
+
+    <WebView
+        android:id="@+id/webViewPlayer"
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:layout_marginBottom="16dp"
+        android:background="#000000"/>
+
+    <Button
+        android:id="@+id/btnPlay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PLAY"
+        android:backgroundTint="#E53935"
+        android:layout_marginBottom="10dp"/>
+
+    <Button
+        android:id="@+id/btnAddToPlaylist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ADD TO PLAYLIST"
+        android:backgroundTint="#222222"
+        android:layout_marginBottom="10dp"/>
+
+    <Button
+        android:id="@+id/btnMyPlaylist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MY PLAYLIST"
+        android:backgroundTint="#444444"/>
+
+</LinearLayout>
