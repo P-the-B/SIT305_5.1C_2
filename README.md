@@ -39,38 +39,13 @@ The application supports multiple video sources, including YouTube and Rumble, a
 
 ## Screenshots
 
-<table>
-  <tr>
-    <td align="center">
-      <img src="https://github.com/user-attachments/assets/1335edb3-bdc3-4cb0-878d-4db8667c783b" width="250"/><br/>
-      <sub>Login Screen</sub>
-    </td>
-    <td align="center">
-      <img src="https://github.com/user-attachments/assets/2d983d01-3001-4b44-b76f-a0eebd507cec" width="250"/><br/>
-      <sub>Sign Up Screen</sub>
-    </td>
-    <td align="center">
-      <img src="https://github.com/user-attachments/assets/32945845-1682-454b-b64d-2a1a19c5fb26" width="250"/><br/>
-      <sub>Home Screen</sub>
-    </td>
-  </tr>
-  <tr>
-    <td align="center">
-      <img src="https://github.com/user-attachments/assets/51cf6800-83f9-4c7a-af37-a84b3d1062c4" width="250"/><br/>
-      <sub>YouTube Playback</sub>
-    </td>
-    <td align="center">
-      <img src="https://github.com/user-attachments/assets/d0b2e12f-6a5e-4242-8d8e-638ffcc19fcb" width="250"/><br/>
-      <sub>Playlist View</sub>
-    </td>
-    <td align="center">
-      <img src="https://github.com/user-attachments/assets/55064f53-43cb-426c-be74-1dda1bef46d3" width="250"/><br/>
-      <sub>Playlist - Saved count <br>(YouTube / Rumble)</sub>
-    </td>
-  </tr>
-</table>
+| | | |
+|---|---|---|
+| <img src="screenshots/01_login.png" width="250" height="600"> | <img src="screenshots/02_signup.png" width="250" height="600"> | <img src="screenshots/03_home.png" width="250" height="600"> |
+| **Login** | **Signup** | **Home** |
+| <img src="screenshots/04_playing.png" width="250" height="600"> | <img src="screenshots/05_playlist.png" width="250" height="600"> | <img src="screenshots/06_empty_playlist.png" width="250" height="600"> |
+| **Playing** | **Playlist** | **Empty Playlist** |
 
----
 
 ## Technical Implementation
 
